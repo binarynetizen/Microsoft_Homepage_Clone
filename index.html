@@ -9,9 +9,12 @@
         <title>Microsoft Official Homepage</title>
     </head>
     <body>
+         <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
         <div class="container">
             <!-- naviagtion bar -->
-            <nav class="main-nav">
+            <nav class="main-nav show">
                 <img src="images/logo.png" alt="microsoft logo" class="logo" />
                 <ul class="main-menu">
                     <li><a href="office.html">Office</a></li>
@@ -185,7 +188,22 @@
           </ul>
         </div>
       </section>
-
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-inner">
+          <div><i class="fas fa-globe fa-2x"></i> English (United States)</div>
+          <ul>
+            <li><a href="#">Sitemap</a></li>
+					<li><a href="#">Contact Microsoft</a></li>
+					<li><a href="#">Privacy & cookies</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li><a href="#">Trademarks</a></li>
+					<li><a href="#">Safety & eco</a></li>
+					<li><a href="#">About our ads</a></li>
+					<li><a href="#">&copy; Microsoft 2020</a></li>
+          </ul>
+        </div>
+      </footer>
         </div>
         <script>
             // Adding javascript in this way reduces page loading time
@@ -194,6 +212,8 @@
                 element.src = "app.js";
                 document.body.appendChild(element);
             };
+
+
         </script>
     </body>
 </html>
